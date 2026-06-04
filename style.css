@@ -35,7 +35,10 @@ color:#fff;
 .nav-links{
 display:flex;
 list-style:none;
-gap:20px;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
+padding:15px 0;
 }
 
 .nav-links a{
@@ -168,7 +171,11 @@ font-size:36px;
 }
 
 .nav-links{
-flex-direction:column;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
 }
 
 .section-title{
