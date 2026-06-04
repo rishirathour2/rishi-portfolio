@@ -22,9 +22,6 @@ margin:auto;
 .header{
 background:#07152d;
 padding:20px 0;
-position:sticky;
-top:0;
-z-index:1000;
 }
 
 .logo{
@@ -227,5 +224,78 @@ gap:12px;
 display:block;
 margin:10px auto;
 width:250px;
+}
+}
+
+/* Smooth Page Animation */
+
+.hero{
+animation:fadeUp 1s ease;
+}
+
+.section{
+animation:fadeUp 1s ease;
+}
+
+.project-card{
+animation:fadeUp 1s ease;
+transition:0.4s;
+}
+
+.project-card:hover{
+transform:translateY(-10px) scale(1.03);
+}
+
+.stat-card{
+transition:0.4s;
+}
+
+.stat-card:hover{
+transform:translateY(-10px);
+}
+
+.card{
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-nav{
+transition:0.4s;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-nav:hover{
+transform:scale(1.08);
+}
+
+.logo{
+animation:fadeDown 1s ease;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes fadeDown{
+from{
+opacity:0;
+transform:translateY(-40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
 }
 }
