@@ -48,7 +48,7 @@ font-weight:500;
 }
 
 .btn-nav{
-background:#2563eb;
+background:linear-gradient(135deg,#2563eb,#7c3aed);
 color:white;
 padding:12px 24px;
 border-radius:30px;
@@ -244,7 +244,7 @@ margin-top:25px;
 }
 
 .contact-buttons a{
-background:#2563eb;
+background:linear-gradient(135deg,#2563eb,#7c3aed);
 color:white;
 padding:12px 24px;
 border-radius:30px;
@@ -312,3 +312,17 @@ font-size:34px;
         transform:translateY(0);
     }
 }
+.nav-links a:hover{
+    color:#2563eb;
+    transition:0.3s;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-nav:hover,
+.contact-buttons a:hover{
+    transform:translateY(-3px);
+    transition:0.3s;
+    opacity:0.9;
+}
+
