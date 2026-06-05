@@ -426,6 +426,84 @@ transform:translateY(0);
 .card:hover{
 transform:translateY(-10px) scale(1.03);
 }
+/* MODERN PROFESSIONAL DESIGN */
+
+body{
+background:#f5f7fb;
+color:#111827;
+}
+
+section{
+padding:80px 20px;
+}
+
+h1{
+font-size:42px !important;
+line-height:1.2;
+}
+
+h2{
+font-size:34px !important;
+margin-bottom:15px;
+}
+
+p{
+font-size:16px;
+line-height:1.8;
+}
+
+.card,
+.skill-card,
+.project-card,
+.service-card{
+background:#ffffff;
+border-radius:20px;
+padding:25px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+transition:0.4s;
+}
+
+.card:hover,
+.skill-card:hover,
+.project-card:hover,
+.service-card:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+.btn-primary{
+background:#2563eb;
+border:none;
+border-radius:50px;
+padding:14px 30px;
+}
+
+.btn-secondary{
+background:#ffffff;
+color:#111827;
+border:2px solid #e5e7eb;
+border-radius:50px;
+padding:14px 30px;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.progress-bar{
+height:8px;
+background:#e5e7eb;
+border-radius:50px;
+overflow:hidden;
+}
+
+.progress-fill{
+background:#2563eb;
+height:100%;
+border-radius:50px;
+}
 
 @keyframes floatHero{
 0%{
@@ -437,6 +515,43 @@ transform:translateY(-10px);
 100%{
 transform:translateY(0);
 }
+}
+/* GLASS HERO EFFECT */
+
+.hero{
+background:rgba(255,255,255,0.08) !important;
+backdrop-filter:blur(15px);
+-webkit-backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,0.1);
+box-shadow:0 8px 32px rgba(0,0,0,0.2);
+}
+
+/* MODERN SKILL CARDS */
+
+.skill-card{
+background:#ffffff !important;
+border-radius:20px;
+padding:25px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+transition:0.4s;
+}
+
+.skill-card:hover{
+transform:translateY(-8px);
+}
+
+/* MODERN SERVICE CARDS */
+
+.service-card{
+background:#ffffff !important;
+border-radius:20px;
+padding:25px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+transition:0.4s;
+}
+
+.service-card:hover{
+transform:translateY(-8px);
 }
 
 
