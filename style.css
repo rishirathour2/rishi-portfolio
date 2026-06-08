@@ -110,12 +110,14 @@ margin-bottom:40px;
 }
 
 .btn-primary{
+display:inline-block;
 background:#2563eb;
 color:white;
 padding:14px 28px;
 border-radius:50px;
 text-decoration:none;
 font-weight:600;
+margin-top:15px;
 }
 
 .btn-secondary{
